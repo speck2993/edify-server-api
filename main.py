@@ -221,7 +221,6 @@ def amazonobsdemo():
             projects = ["Express Tire", "Littlerock Hotel", "Project 1032"]
             divisions = ["HVAC", "Plumbing", "Southwest"]
             output = ObservationsModel.facebook_obs_response(description).split(", ")
-            print(output)
             division = output[0].split(": ")[1]
             project = output[1].split(": ")[1]
             contractor = output[7].split(": ")[1]
