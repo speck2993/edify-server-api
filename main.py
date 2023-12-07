@@ -235,4 +235,4 @@ def amazonobsdemo():
             return render_template('amazon_obs_demo.html')
         
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
